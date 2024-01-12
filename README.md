@@ -1,4 +1,4 @@
-# April
+# videolity-js-demo
 
 A landing page template.
 
