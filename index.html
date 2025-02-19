@@ -91,8 +91,13 @@
 			<section class="hero">
 				<!-- iframe tag for the video to be embedded -->
 				<iframe id="embeddedIframe" src="https://staging.vdlty.co/video-player?id=4b0b9a9a-a7ef-4d91-b2c9-2bd2e4a2d1cb&viewRatio=1920:950" style="width:100%;height:100%;"></iframe>
-			</section>
 
+				<!-- VideolityPlayer -->			  
+			  <videolity-player
+				  id="videolityFrame"
+				  src="https://staging.vdlty.co/video-player?id=4b0b9a9a-a7ef-4d91-b2c9-2bd2e4a2d1cb&viewRatio=1920:950">
+			  </videolity-player>
+			</section>
 			<section class="features section">
 				<div class="container">
 					<div class="features-inner section-inner">
@@ -402,6 +407,8 @@
 	<script src="dist/js/main.min.js"></script>
 	<!-- JavaScript file that will set iframe dimensions -->
 	<script src="src/js/iframeResizer.js"></script>
+	  <!-- SDK File -->
+	  <script src="https://cdn.jsdelivr.net/gh/Videolity-Work/javascript-sdk@1.0.0/videolity.sdk.js"></script>
 </body>
 
 </html>
